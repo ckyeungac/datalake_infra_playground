@@ -7,7 +7,7 @@ This creates the playground for a modern data lake infrastructure.
 - Data Lake Engine: Spark + Iceberg
 - [Todo] Data Visualization: Metabase
 
-To start-up the infrastructure, run 
+To start-up the infrastructure, run
 
 ```
 docker-compose up
@@ -43,4 +43,3 @@ Once the containers are up and running, we can access
          2. `fs.s3a.endpoint:http`: `http://minio:9000`
          3. `fs.s3a.connection.ssl`: `false`
 4. Click "Save".
-
